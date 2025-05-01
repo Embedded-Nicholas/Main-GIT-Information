@@ -7,7 +7,7 @@ public class MainMenu {
     public static void main(String[] args) {
         Scanner scanner =    new Scanner(System.in);
         TaskManager taskManager=new TaskManager();
-
+        String hello = "hello";
         while (   true) {
             System.out.println("Выберите пункт меню:");
             System.out.println("1. Добавить задачу");
